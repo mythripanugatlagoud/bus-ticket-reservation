@@ -1,17 +1,29 @@
 # bus-ticket-reservation
-📌 Introduction
-The Bus Ticket Reservation System is a mini project in C programming that allows users to book, cancel, and manage bus tickets efficiently. It provides an interactive console-based interface where users can view available buses, reserve seats, check their booking status, and cancel tickets if needed.
+Welcome to the Bus Ticket Reservation System project! This project is developed using the C programming language and allows users to book and manage bus tickets. The system provides a user-friendly interface for ticket reservation and also includes an executable file for easy execution.
 
-This project utilizes file handling to ensure that reservation data is stored and retrieved accurately, making it a simple yet practical system for learning C programming concepts like functions, structures, file operations, and conditional statements.
+Table of Contents
+Features
+Installation
+Usage
+Contributing
+Features
+Ticket Booking: Users can book bus tickets by providing necessary details such as source, destination, date, and passenger information.
+Seat Availability: The system displays the available seats for a particular bus, helping users make informed decisions.
+Ticket Cancellation: Users can cancel their booked tickets, and the system will update the seat availability accordingly.
+Ticket Modification: Users can modify their booked tickets by changing passenger details or the travel date, subject to availability.
+Ticket History: The system maintains a record of all ticket bookings and cancellations, allowing users to view their booking history.
+Installation
+To run the Bus Ticket Reservation System, follow these steps:
 
-🎯 Features
-✔ View Available Buses – Displays a list of buses with their details (bus number, route, available seats, etc.).
-✔ Book Tickets – Allows users to reserve seats by entering passenger details.
-✔ Cancel Reservation – Provides an option to cancel previously booked tickets.
-✔ Check Booking Status – Displays the details of confirmed reservations.
-✔ File Handling – Ensures that bookings remain stored even after the program is closed.
+Clone or download the project files from the GitHub repository: Bus-Reservation-in-C.
+Compile the source code files using a C compiler (e.g., GCC).
+gcc main.c -o bus_reservation
+Execute the generated executable file.
+./bus_reservation
+Usage
+Upon running the Bus Ticket Reservation System, you will be presented with a menu-driven interface. Follow the on-screen instructions to perform various operations, such as ticket booking, cancellation, and modification. The system will display relevant information and prompts to guide you through the process. Enjoy booking your bus tickets hassle-free!
 
-🏗️ Technologies Used
-C Programming – Core logic and implementation.
-File Handling – To store and retrieve booking details.
-Structured Programming Approach – To maintain code clarity and modularity.
+Contributing
+Contributions to this project are always welcome. If you find any issues or have ideas for improvements, please open an issue on the GitHub repository. You can also fork the repository, make changes, and submit a pull request.
+
+We hope you find the Bus Ticket Reservation System useful and efficient for managing bus bookings. If you have any further questions or need assistance, please don't hesitate to reach out. Happy traveling!
